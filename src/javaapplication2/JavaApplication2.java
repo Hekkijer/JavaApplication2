@@ -28,6 +28,9 @@ public class JavaApplication2 {
        int decs = number%100/10;
        System.out.printf("Decs: %d \n", decs);
        
+       int thousands = number%1000/100;
+        System.out.printf("Thousands: %d \n", thousands);
+       
        int sum = number/100 + numbers + decs;
        System.out.printf("Sum of all 3 numbers: %d \n", sum);
     }
